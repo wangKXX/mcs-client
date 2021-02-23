@@ -15,3 +15,8 @@
 //   }
 // }
 </script>
+<style scoped>
+.home{
+  font-size: 80px;
+}
+</style>

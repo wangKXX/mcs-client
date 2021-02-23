@@ -10,16 +10,11 @@ const routes = [
     name: 'index',
     component: index
   },
-  // {
-  //   path: '/about',
-  //   name: 'About',
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // }
 ]
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: "/audit/",
   routes
 })
 
