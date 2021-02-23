@@ -46,11 +46,11 @@ module.exports = {
     open: true,
     port: 8080,
     proxy: {
-      "/local": {
+      "/api": {
         target:"http://127.0.0.1:3000",
         changeOrigin: true,
         pathRewrite: {
-          "^/local": ""
+          "^/api": ""
         },
         cookiePathRewrite: {
           "/unchanged.path/": "/unchanged.path/",
