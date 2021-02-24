@@ -32,7 +32,7 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
   const {meta: { title }} = to;
-  document.title = title;
+  document.title = title;+
   next();
 });
 
